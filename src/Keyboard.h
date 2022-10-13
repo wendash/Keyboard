@@ -142,6 +142,8 @@ public:
   size_t press(uint8_t k);
   size_t release(uint8_t k);
   void releaseAll(void);
+  size_t pressSC(uint8_t k);
+  size_t releaseSC(uint8_t k);
 };
 extern Keyboard_ Keyboard;
 
